@@ -8,36 +8,36 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="2" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;strokeColor=#030303;fillColor=#FFFFFF;fontColor=#242424;" vertex="1" parent="1">
-                    <mxGeometry x="350" y="40" width="120" height="40" as="geometry"/>
+                    <mxGeometry x="380" y="80" width="120" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="8" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3" target="4">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="3" value="Input the hourd worked" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;strokeColor=#030303;fillColor=#FCFCFC;fontColor=#000000;" vertex="1" parent="1">
-                    <mxGeometry x="300" y="120" width="220" height="80" as="geometry"/>
+                    <mxGeometry x="330" y="160" width="220" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="9" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4" target="5">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="4" value="Input the hourly pay rate" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
-                    <mxGeometry x="300" y="240" width="220" height="80" as="geometry"/>
+                    <mxGeometry x="330" y="280" width="220" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="10" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5" target="6">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="5" value="Calculate gros pay as&lt;br&gt;hours worked multiplied&lt;br&gt;by pay rate" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontColor=#000000;fillColor=#FFFFFF;strokeColor=#080808;" vertex="1" parent="1">
-                    <mxGeometry x="300" y="360" width="220" height="80" as="geometry"/>
+                    <mxGeometry x="330" y="400" width="220" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="12" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6" target="11">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="410" y="580" as="targetPoint"/>
+                        <mxPoint x="440" y="620" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="6" value="Display the gross pay" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontColor=#000000;fillColor=#F2F2F2;strokeColor=#1F1F1F;" vertex="1" parent="1">
-                    <mxGeometry x="300" y="480" width="220" height="80" as="geometry"/>
+                    <mxGeometry x="330" y="520" width="220" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="11" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontColor=#000000;fillColor=#FFFFFF;strokeColor=#080808;" vertex="1" parent="1">
-                    <mxGeometry x="350" y="600" width="120" height="40" as="geometry"/>
+                    <mxGeometry x="380" y="640" width="120" height="40" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
