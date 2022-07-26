@@ -59,25 +59,25 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="8" value="n&lt;br&gt;=&lt;br&gt;(max-min)/interval" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#FCF87C;fontColor=#0F0F0F;strokeColor=#141414;" vertex="1" parent="1">
-                    <mxGeometry x="220" y="515" width="100" height="50" as="geometry"/>
+                    <mxGeometry x="220" y="510" width="100" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="21" style="edgeStyle=none;html=1;" edge="1" parent="1" source="9" target="10">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="9" value="i = 1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#FCF87C;strokeColor=#141414;fontColor=#0F0F0F;" vertex="1" parent="1">
-                    <mxGeometry x="220" y="610" width="100" height="50" as="geometry"/>
+                    <mxGeometry x="220" y="600" width="100" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="22" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="10" target="7">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="350" y="715" as="targetPoint"/>
                         <Array as="points">
-                            <mxPoint x="360" y="725"/>
+                            <mxPoint x="360" y="715"/>
                             <mxPoint x="360" y="540"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="10" value="sum = 0" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#FCF87C;strokeColor=#141414;fontColor=#0F0F0F;" vertex="1" parent="1">
-                    <mxGeometry x="220" y="700" width="100" height="50" as="geometry"/>
+                    <mxGeometry x="220" y="690" width="100" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="36" style="edgeStyle=none;html=1;" edge="1" parent="1" source="11">
                     <mxGeometry relative="1" as="geometry">
