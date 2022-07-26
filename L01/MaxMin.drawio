@@ -43,7 +43,7 @@
                 <mxCell id="24" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6" target="4">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="6" value="(max-min)mod&lt;br&gt;interval" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#f0a30a;strokeColor=#141414;fontColor=#0F0F0F;" vertex="1" parent="1">
+                <mxCell id="6" value="(max-min)mod&lt;br&gt;interval = 0" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#f0a30a;strokeColor=#141414;fontColor=#0F0F0F;" vertex="1" parent="1">
                     <mxGeometry x="220" y="400" width="100" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="26" style="edgeStyle=none;html=1;" edge="1" parent="1" source="7" target="5">
@@ -100,7 +100,7 @@
                 <mxCell id="29" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="13" target="12">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="13" value="sum&lt;br&gt;=&lt;br&gt;sum&amp;nbsp; min" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#FCF87C;strokeColor=#141414;fontColor=#0F0F0F;" vertex="1" parent="1">
+                <mxCell id="13" value="sum&lt;br&gt;=&lt;br&gt;sum + min" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#FCF87C;strokeColor=#141414;fontColor=#0F0F0F;" vertex="1" parent="1">
                     <mxGeometry x="400" y="600" width="100" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="14" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fillColor=#FF8787;strokeColor=#141414;fontColor=#0F0F0F;" vertex="1" parent="1">
