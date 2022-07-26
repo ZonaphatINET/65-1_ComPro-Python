@@ -52,7 +52,7 @@
                 <mxCell id="28" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7" target="13">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" value="i &amp;lt; n" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#f0a30a;fontColor=#0F0F0F;strokeColor=#141414;" vertex="1" parent="1">
+                <mxCell id="7" value="i &amp;lt;= n" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#f0a30a;fontColor=#0F0F0F;strokeColor=#141414;" vertex="1" parent="1">
                     <mxGeometry x="400" y="510" width="100" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="20" style="edgeStyle=none;html=1;" edge="1" parent="1" source="8" target="9">
