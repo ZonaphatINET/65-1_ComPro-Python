@@ -1,6 +1,9 @@
 # Program make a simple calculator
 
 # This function adds two numbers
+from re import I
+
+
 def add(x, y):
     return x + y
 
@@ -16,6 +19,7 @@ def multiply(x, y):
 def divide(x, y):
     return x / y
 
+i = float
 
 print("Select operation.")
 print("1.Add +")
@@ -45,9 +49,9 @@ while True:
             print(num1, "/", num2, "=", divide(num1, num2))
         
         # check if user wants another calculation
-        # break the while loop if answer is no
-        next_calculation = input("Let's do next calculation? (yes/no): ")
-        if next_calculation == "no":
+        # break the while loop if answer is STOP
+        next_calculation = input("Let's do next calculation? (NEW/STOP/NEXT): ")
+        if next_calculation == "STOP":
           break
     
     else:

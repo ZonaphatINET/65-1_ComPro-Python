@@ -24,3 +24,19 @@ print("I'm Anirach","I'll keep preacticing!")
 print("I'm Anirach" + " I'll keep preacticing!")
 print(1, 1, 2, 3, 5, 8, 13, 21, 34, 55)
 print('%d %d %d %d %d %d %d %d %d %d' %(1, 1, 2, 3, 5, 8, 13, 21, 34, 55))
+x = 15
+y = 4
+
+print('x + y =',x + y)
+
+print('x - y =',x - y)
+
+print('x * y =',x * y)
+
+print('x / y =',x / y)
+
+print('x % y =',x % y)
+
+print('x // y =',x // y)
+
+print('x ** y =',x ** y)
