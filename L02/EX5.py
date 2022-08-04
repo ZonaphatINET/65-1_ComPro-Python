@@ -1,8 +1,9 @@
-s1 = 'New York'
-s2 = 'Boston'
-if s1 > s2 :
-    print(s2)
-    print(s1)
+time_wrok = float (input('Enter the number of hours worke: '))
+pay_rate = float (input('Enter the hourly pay reat: '))
+if time_wrok <= 40:
+    gross_pay = time_wrok * pay_rate
+    print('The gross pay is $%.2f'(gross_pay))
 else :
-    print(s1)
-    print(s2)
+    over_time = time_wrok - 40
+    gross_pay = (time_wrok * pay_rate)+(over_time * ((pay_rate  / 100) * 150))
+    print('The gross pay is $%.2f'(gross_pay))
