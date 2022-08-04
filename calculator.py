@@ -29,9 +29,11 @@ print("4.Divide /")
 
 while True:
     # take input from the user
+    # เลือก อินพุตเพื่อใช้งาน
     choice = input("Enter choice(1/2/3/4): ")
 
     # check if choice is one of the four options
+    # เช็คเงื่อนไข 1 ใน 4 ตัวเลือก
     if choice in ('1', '2', '3', '4'):
         num1 = float(input("Enter first number: "))
         num2 = float(input("Enter second number: "))
