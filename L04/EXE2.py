@@ -9,7 +9,7 @@ while name < len(text):
         print("Original Text: ",end='')
         print(text.upper()[name],end='')
         name += 1
-    if name == (2,3) :
-        print(text.upper()[name])
+    else :
+        print(text[name])
         name += 1
     
