@@ -1,8 +1,8 @@
-rows = int(input('Enter your rows: '))
+lijst = list(range(1, 11))
+i = 0
 columns = int(input('Enter your columns: '))
-num = 0
-while num < columns :
-    for j in range(rows):
-        print("* ",end="")
-    num += 1
-    print()
+while i < 100:
+    print(lijst[i],)
+    i = i+1
+    if i % columns == 0:
+        print("")
