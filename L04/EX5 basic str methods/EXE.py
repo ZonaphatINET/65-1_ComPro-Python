@@ -8,7 +8,7 @@ elif type.isnumeric() :
     print('This is what I found about that string:')
     print('The string is alpahanumeric.')
     print('The string contains only digits.')
-elif type.isalpha() and type.isupper() :
+elif type.isalnum() and type.isupper() :
     print('This is what I found about that string:')
     print('The string is alpahanumeric.')
     print('The letters in the string are all uppercase.')

@@ -1,5 +1,5 @@
 string = 'Four score and seven years ago'
-position = string.find('sevne')
+position = string.find('seven')
 if position != -1 :
     print('The wprd "seven" was found ai index', position)
 else:

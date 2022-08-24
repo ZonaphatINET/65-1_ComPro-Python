@@ -1,3 +1,3 @@
 balloon = "Anirach has a balloon"
 
-print(balloon.find("a")) #หาข้อความนี้ "rach"
+print(balloon.find("rach")) #หาข้อความนี้ "rach"
