@@ -1,12 +1,12 @@
 def main():
-    sales_file = open('employees.txt','r')
+    sales_file = open('sales.txt','r')
 
     line = sales_file.readline()
 
     while line != '':
-        amount = str(line)
+        amount = float(line)
 
-        print(format(amount))
+        print(format(amount, '.2f'))
 
         line = sales_file.readline()
 
