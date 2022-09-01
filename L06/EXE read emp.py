@@ -7,21 +7,21 @@ def main():
     name = 1
     id = 2
     dept = 3
-    ncount = 3
+    num = 3
     count = 1
     for line in sales_file:
         amount = str(line)
         if name == count:
             print('Name:',amount.rstrip('\n'))
-            name += ncount
+            name += num
             count += 1
         elif id == count:
             print('ID:',amount.rstrip('\n'))
-            id += ncount 
+            id += num 
             count += 1
         elif dept == count:
             print('Dept:',amount.rstrip('\n'))
-            dept += ncount 
+            dept += num 
             count += 1
         else:
             print()
