@@ -1,7 +1,3 @@
-from itertools import count
-from os import name
-
-
 def main():
     sales_file = open('employees.txt','r')
     name = 1

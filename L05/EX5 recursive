@@ -1,6 +1,3 @@
-from math import factorial
-
-
 def main():
     number = int(input('Enter a nonnegative integer: '))
 

@@ -1,6 +1,3 @@
-from cgitb import lookup
-
-
 def main():
     emp_file = open("employees.txt",'r')
     name = input('Enter name your want to find : ')
@@ -11,13 +8,8 @@ def main():
         see = mem.find(name)
         if see >= 0 :
             print('Ok')
-            print(amount.rstrip('\n'))
         if see == -1:
             print('No')
-            print(amount.rstrip('\n'))
-
-
-
-
     emp_file.close()
+
 main() 
