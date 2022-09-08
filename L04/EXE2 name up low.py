@@ -1,7 +1,9 @@
-# 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6
-# 1 0 1 1 0 1 1 1 0 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 0
-# A n I R a C H M i N G K H w A N
-#  low   low     low       low         low           low
+''' 
+ 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6
+ 1 0 1 1 0 1 1 1 0 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 0
+ A n I R a C H M i N G K H w A N
+  low   low     low       low         low           loww
+'''
 
 low = 1
 sp = 3

@@ -8,7 +8,7 @@ elif B == 1:
     B += 1
 A = 100 // B 
 for i in range (1,101):
-    print(i,end='')
+    print(i,end=' ')
     for j in range(0,101,A):
         k = j % A
         if i == j:
