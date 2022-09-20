@@ -3,11 +3,9 @@ print("1 - 100")
 B = int(input('Enter your rows: '))
 B -= 1
 if 100 // B:
-    B += 1
-elif B == 1:
-    B += 1
-else:
     B += 0
+else:
+    B += 1
 A = 100 // B 
 for i in range (1,101):
     print(i,end=' ')
@@ -15,4 +13,6 @@ for i in range (1,101):
         k = j % A
         if i == j:
             print() 
+
+''' Have Errer '''
 
