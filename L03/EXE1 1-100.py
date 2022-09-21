@@ -1,7 +1,7 @@
 #1-100 กำหนดบันทัด (กำหนด rows)
 print("1 - 100")
 B = int(input('Enter your rows: '))
-if 100 // B:
+if 100 % B == 0 :
     B += 0
 else:
     B += 1
