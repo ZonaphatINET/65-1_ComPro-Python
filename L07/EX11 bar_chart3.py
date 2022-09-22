@@ -3,9 +3,9 @@ def main():
     left_edges = [0, 10, 20, 30, 40] 
 
     heights = [100, 200 ,300, 400, 500]
-    bar_width = 5
+    bar_width = 2
 
-    plt.bar(left_edges, heights, bar_width, color = ('r','c','b','c','r'))
+    plt.bar(left_edges, heights, bar_width, color = ('r','w','b','w','r'))
 
     plt.title('Sales by Year')
 
