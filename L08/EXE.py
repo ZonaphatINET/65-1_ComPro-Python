@@ -42,7 +42,7 @@ def main():
         elif sw == 5:
             print(Delete())
         elif sw == 6:
-            print('Bye bye :)')
+            print('Bye bye ;)')
             break
             
 main()
