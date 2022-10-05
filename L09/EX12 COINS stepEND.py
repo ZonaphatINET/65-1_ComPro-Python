@@ -27,7 +27,7 @@ def place_coin():
 
 def update():
     global score
-    if fox.x == 0:
+    if fox.x == 000:
         fox.x = fox.x = 000
 
     if keyboard.left:
