@@ -15,12 +15,13 @@ Students_Marks = {"John": {"Computer Programming": 80, "Math": 90, "English": 70
                    "Tom": {"Computer Programming": 80, "Math": 55, "English": 75, "Physic": 70, "Dance": 75, "Electronic": 80},
                    "Jane": {"Computer Programming": 90, "Math": 95, "English": 80, "Physic": 75, "Dance": 80, "Electronic": 85}}
 
-def display():
-    print(Students_Marks)
-
 def grade():
-    read = Students_Marks["John"]
-    print(read)
+    global Grade_Level
+    global Grade_Point
+    print("Students Grade & GPA")
+    for k, v in Students_Marks.items():
+        print(k,"\t  ","Computer Programming :",v.pop("Computer Programming"),"Math :",v.pop("Math"),"English :",
+              v.pop("English"),"Physic :",v.pop("Physic"),"Dance :",v.pop("Dance"),"Electronic :",v.pop("Electronic"),"GPA :")
 
 def main():
     grade()

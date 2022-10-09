@@ -2,6 +2,8 @@ records={'6506022420011':['Naphat Thaingtham','Naphat@gmail.com','094970912']}
 
 def displayRecords():
     print(records)
+    for k, v in records.items():
+        print(k ,v.pop(0))
 
 def add():
     number = str(input('Enter ID: '))
