@@ -54,6 +54,9 @@ def main():
         #print(sumC)
 main()
 '''
+
+print("Students Grade & GPA")
+
 for i in Students_Marks: 
     print(i.ljust(10),end='')
         
