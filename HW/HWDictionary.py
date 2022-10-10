@@ -14,7 +14,7 @@ Students_Marks = {"John": {"Computer Programming": 80, "Math": 90, "English": 70
                    "Mary": {"Computer Programming": 45, "Math": 70, "English": 60, "Physic": 65, "Dance": 80, "Electronic": 70},
                    "Tom": {"Computer Programming": 80, "Math": 55, "English": 75, "Physic": 70, "Dance": 75, "Electronic": 80},
                    "Jane": {"Computer Programming": 90, "Math": 95, "English": 80, "Physic": 75, "Dance": 80, "Electronic": 85}}
-
+'''
 def grade():
     global Grade_Level
     global Grade_Point
@@ -27,3 +27,54 @@ def main():
     grade()
 
 main()
+'''
+
+'''
+def grade_L(point: int()) -> str():
+    for i in Grade_Level:
+        if point >= Grade_Level[i]:
+            return i
+
+def grade_P(point: int()) -> int():
+    for i in Grade_Point:
+        if point >= Grade_Point[i]:
+            return Grade_Point[i]
+
+def main():
+    for key in Students_Marks:
+        print("{:10}".format(key), end=' ')
+        sumG = 0
+        sumC = 0
+        for value in Students_Marks[key]:
+            print(value, "{:5}".format(grade_L(Students_Marks[key][value])), end="")
+            sumG += grade_P(Students_Marks[key][value]) * Credits[value]
+            sumC += Credits[value]
+        print("GPA: {:.2f}".format(sumG / sumC))
+        #print(sumG)
+        #print(sumC)
+main()
+'''
+for i in Students_Marks: 
+    print(i.ljust(10),end='')
+        
+    sum_grade = 0
+    sum_credit = 0
+
+    for value in Students_Marks["John"] :
+        resultStr = ()
+        resultInt = 0
+        for grade,point in Grade_Level.items():
+                if Students_Marks[i][value] >= point:                   
+                    resultStr = grade
+                    resultInt = Grade_Point[grade]                 
+                    break
+        for sub,credis_sub in Credits.items():
+                if sub == value:              
+                    credis = credis_sub                
+                    break
+        sum_grade = (sum_grade + resultInt * credis) 
+        sum_credit = (sum_credit + credis)
+        sum = (sum_grade/ sum_credit)       
+        print(sub, ":",resultStr.ljust(5),end='')
+        
+    print('GPA: {:.2f}'.format(sum))
